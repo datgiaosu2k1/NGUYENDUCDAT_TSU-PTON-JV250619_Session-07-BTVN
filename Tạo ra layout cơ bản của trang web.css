@@ -1,0 +1,41 @@
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: rgb(102, 156, 213);
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
+.sidebar {
+  background-color: rgb(102, 213, 157);
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  margin: 10px 20px 10px 0;
+  flex: 1;
+}
+.content {
+  background-color: rgb(213, 102, 117);
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+  margin: 10px 0 ;
+  flex: 3;
+}
+.footer{
+    background-color: rgb(200, 102, 213);
+  font-size: 20px;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
+.main{
+    display:flex;
+    min-height:500px;
+}
